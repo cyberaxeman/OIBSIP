@@ -13,7 +13,7 @@ public class MainForm extends javax.swing.JFrame {
     private int attempts;
     private final int maxAttempts = 5;
     private final int min = 1;
-    private final int max = 5;
+    private final int max = 100;
     private final int randomNumber = (int) (Math.random() * (max - min + 1) + min);
     private int rounds = 1;
     private int score = 0;
